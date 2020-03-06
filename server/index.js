@@ -14,6 +14,7 @@ const db = new sqlite3.Database('tennis.db');
 const graphqlHTTP = require('express-graphql');
 const { buildSchema } = require('graphql');
 
+// GraphQL Schema
 const schema = buildSchema(`
   type Query {
     players(offset:Int = 0, limit:Int = 10): [Player]
