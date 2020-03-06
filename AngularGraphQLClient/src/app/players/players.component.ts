@@ -31,8 +31,6 @@ export class PlayersComponent implements OnInit, OnDestroy {
     }
 
     ngOnDestroy(): void {
-        console.log("Hi");
-
         this.querySubscription.unsubscribe();
     }
 
