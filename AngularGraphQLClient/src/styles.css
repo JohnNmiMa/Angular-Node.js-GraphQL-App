@@ -1,0 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
+.mdl-layout__container .mdl-layout__obfuscator.is-visible {
+    opacity: 0!important;
+}

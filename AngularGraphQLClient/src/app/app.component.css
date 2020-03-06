@@ -1,0 +1,10 @@
+.content {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mdl-navigation__link {
+    cursor: pointer;
+}
+

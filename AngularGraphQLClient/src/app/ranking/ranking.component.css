@@ -1,0 +1,19 @@
+.mdl-textfield__input {
+    display: inline;
+    width: 40px;
+    /*border: 1px solid lightgrey;*/
+    /*border-bottom: none;*/
+    border: none;
+    padding:0 2px;
+    color: dodgerblue;
+}
+.incr, .decr {
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: 24px;
+    user-select: none;
+}
+
+table.mdl-data-table {
+    min-width: 530px;
+}
